@@ -115,7 +115,7 @@ section .task-column .task{
 }
 
 section .task-column .task button{
-    align-items: flex-end;
+    /* align-items: flex-end; */
     cursor: pointer;
     padding: var(--border-radius-s) var(--padding-m);
     border-radius: var(--border-radius-s);
@@ -123,5 +123,7 @@ section .task-column .task button{
     outline: none;
     background-color: var(--delete-color);
     color: var(--primary-text-color);
+    width: fit-content;
+    align-self: flex-end;
 }
 
